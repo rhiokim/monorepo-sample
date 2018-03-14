@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Panel from 'components/lib/Panel';
+import Button from 'components/lib/Button';
+
 class App extends Component {
   render() {
     return (
@@ -13,6 +16,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <Panel>web-spa</Panel>
+        <Button>web-spa</Button>
       </div>
     );
   }
