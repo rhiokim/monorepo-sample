@@ -1,5 +1,9 @@
 # Project Components
 
 ```react
-<div>Hello Catalog</div>
+<Panel>Panel Component</Panel>
+```
+
+```react
+<Button>Button Component</Button>
 ```
