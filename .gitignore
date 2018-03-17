@@ -1,7 +1,29 @@
-.DS_Store
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
 node_modules
 
-# web-ssr
+# testing
+coverage
+__snapshots__
+
+# production
+/build
+dist
 .next
 out
-coverage
+
+# misc
+.DS_Store
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log
+v8.log
+
+# flowtype
+flow-typed/npm
+
+# firebase
+credentials
