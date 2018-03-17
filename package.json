@@ -5,7 +5,10 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commitmsg": "npm run lint:msg",
+    "release": "conventional-github-releaser -p angular",
+    "lint:msg": "validate-commit-msg"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +17,9 @@
     "commitizen": "^2.9.6",
     "conventional-github-releaser": "^2.0.0",
     "cz-customizable": "^5.2.0",
-    "lerna": "^2.1.2"
+    "husky": "^0.14.3",
+    "lerna": "^2.1.2",
+    "validate-commit-msg": "^2.14.0"
   },
   "config": {
     "commitizen": {
