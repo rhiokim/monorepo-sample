@@ -11,6 +11,17 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "commitizen": "^2.9.6",
+    "conventional-github-releaser": "^2.0.0",
+    "cz-customizable": "^5.2.0",
     "lerna": "^2.1.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.js"
+    }
   }
 }

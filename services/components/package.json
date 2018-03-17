@@ -7,7 +7,8 @@
     "dev": "webpack-cli --watch --mode=production",
     "build": "webpack-cli --mode=production",
     "postinstall": "webpack-cli --mode=production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "conventional-github-releaser -p angular"
   },
   "keywords": [],
   "author": "",
