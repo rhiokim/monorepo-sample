@@ -5,6 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "dev": "lerna exec --parallel -- npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1",
     "commitmsg": "npm run lint:msg",
     "release": "conventional-github-releaser -p angular",
