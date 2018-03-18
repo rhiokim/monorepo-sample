@@ -8,7 +8,8 @@
     "build": "webpack-cli --mode=production",
     "postinstall": "webpack-cli --mode=production",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "conventional-github-releaser -p angular"
+    "release": "conventional-github-releaser -p angular",
+    "flow": "flow"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "flow-bin": "^0.68.0",
     "uglifyjs-webpack-plugin": "^1.2.3",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12"

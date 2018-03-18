@@ -1,5 +1,9 @@
 // @flow
-import React from 'react';
+import * as React from 'react';
+
+type Props = {
+  children?: React.Node
+}
 
 const style = {
   backgroundColor: 'rgba(255,255,255,1)',
@@ -7,7 +11,7 @@ const style = {
   padding: '5px'
 }
 
-export default ({ children }) => <div style={style}>
+export default ({ children }: Props) => <div style={style}>
   <h2>Panel header</h2>
   {children}
 </div>
