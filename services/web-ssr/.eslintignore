@@ -1,0 +1,7 @@
+node_modules/**
+**/*.css
+**/*.html
+src/**/*-test.js
+flow-typed
+out
+.next
