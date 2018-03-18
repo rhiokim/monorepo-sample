@@ -1,0 +1,16 @@
+[ignore]
+.*/node_modules/*
+.*/__test__/.*
+./out
+./.next
+
+[include]
+
+[libs]
+./flow-typed/
+
+[lints]
+all=warn
+
+[options]
+include_warnings=true
