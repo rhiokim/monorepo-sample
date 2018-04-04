@@ -22,7 +22,7 @@ module.exports = {
     { value: 'WIP', name: '🔥 WIP: (:fire:) Work in progress' }
   ],
 
-  scopes: [{ name: 'front' }, { name: 'server' }, { name: 'comp' }],
+  scopes: [{ name: 'comp' }, { name: 'spa' }, { name: 'ssr' }, { name: 'mobile' }, { name: 'env' }],
 
   allowCustomScopes: true,
   allowBreakingChanges: ['feat', 'fix']

@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.css'
 
-import Panel from 'components/lib/Panel';
-import Button from 'components/lib/Button';
+import Panel from 'components/lib/Panel'
+import Button from 'components/lib/Button'
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <div className="App">
         <header className="App-header">
@@ -19,8 +19,8 @@ class App extends Component {
         <Panel>web-spa</Panel>
         <Button>web-spa</Button>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
