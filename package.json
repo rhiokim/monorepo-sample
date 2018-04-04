@@ -16,10 +16,10 @@
   "license": "ISC",
   "devDependencies": {
     "commitizen": "^2.9.6",
-    "conventional-github-releaser": "^2.0.0",
+    "conventional-github-releaser": "^2.0.2",
     "cz-customizable": "^5.2.0",
     "husky": "^0.14.3",
-    "lerna": "^2.1.2",
+    "lerna": "^2.9.1",
     "validate-commit-msg": "^2.14.0"
   },
   "config": {
