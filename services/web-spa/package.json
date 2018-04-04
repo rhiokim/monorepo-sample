@@ -4,9 +4,9 @@
   "private": true,
   "dependencies": {
     "components": "^1.0.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1"
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts": "^1.1.4"
   },
   "scripts": {
     "dev": "PORT=3001 react-scripts start",
