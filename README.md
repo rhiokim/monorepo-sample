@@ -20,10 +20,12 @@ This is going to design monorepo architecture for complicated/huge modern web ap
   `-- web-ssr
 ```
 
-## Getting started
+## How to use
 
 ```bash
-git clone git@github.com:rhiokim/monorepo-example.git
+mkdir my-web-workspace
+cd my-web-workspace
+curl https://codeload.github.com/rhiokim/monorepo-sample/tar.gz/master | tar -xz --strip=1
 
 lerna bootstrap
 
