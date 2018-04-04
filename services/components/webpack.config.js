@@ -1,15 +1,15 @@
-const path = require('path');
+const path = require('path')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
   entry: {
     Button: './src/Button.js',
-    Panel: './src/Panel.js',
+    Panel: './src/Panel.js'
   },
   output: {
     path: path.resolve(__dirname, 'lib'),
     filename: '[name].js',
-    libraryTarget: 'commonjs2',
+    libraryTarget: 'commonjs2'
   },
   module: {
     rules: [
@@ -17,15 +17,15 @@ module.exports = {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
-        },
-      },
-    ],
+          loader: 'babel-loader'
+        }
+      }
+    ]
   },
   plugins: [
-    new UglifyJsPlugin(),
+    new UglifyJsPlugin()
   ],
   externals: [
-    'react',
-  ],
-};
+    'react'
+  ]
+}

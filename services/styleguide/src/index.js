@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Catalog, pageLoader } from 'catalog';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Catalog, pageLoader } from 'catalog'
 
 import Panel from 'components/lib/Panel'
 import Button from 'components/lib/Button'
@@ -13,9 +13,9 @@ ReactDOM.render(
         imports: { Panel, Button },
         path: '/',
         title: 'Introduction',
-        content: pageLoader('intro.md'),
-      },
+        content: pageLoader('intro.md')
+      }
     ]}
   />,
   document.getElementById('root')
-);
+)
