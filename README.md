@@ -1,5 +1,7 @@
 # Enterprise React Boilerplate
 
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
+
 This is going to design monorepo architecture for complicated/huge modern web application with react.js tech stack such as create-react-app, next.js and universal components
 
 ## Features
@@ -34,6 +36,8 @@ lerna bootstrap
 # web-spa 3001 port
 # styleguide 3009 port
 npm run dev
+
+lerna exec --parallel -- npm run dev
 ```
 
 ## TODO
